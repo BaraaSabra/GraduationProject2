@@ -1,0 +1,25 @@
+<?xml version="2.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:checkableBehavior="single">
+    <item android:title="New"
+         android:icon="@drawable/ic_baseline_home_24"
+        android:id="new"/>
+
+    <item android:title="categories"
+        android:icon="@drawable/categorys"
+        android:id="categories"
+        />
+
+    <item android:title="profile"
+        android:icon="@drawable/users"
+        android:id="profile"/>
+
+    <item android:title="Favorite"
+        android:icon="@drawable/heart"
+        android:id="favorite"/>
+    </group>
+
+</menu>
